@@ -18,8 +18,8 @@ module loecher(){
 difference(){
     translate([0,0,0]) cube([20,120,10], center=true);
     color("red") translate([0,-38,3]) cube([16,40,10], center=true);
-    translate([0,-48,-5]) cylinder(h=15, r=4.2, center=true);
-    translate([0,-28,-5]) cylinder(h=15, r=4.2, center=true);
+    translate([0,-48,-5]) cylinder(h=15, r=2.1, center=true);
+    translate([0,-28,-5]) cylinder(h=15, r=2.1, center=true);
     translate([-3,-5,0]) color("yellow") loecher();
     translate([3,7.5,0]) rotate([0,0,180]) color("yellow") loecher();
     translate([-3,20,0]) color("yellow") loecher();
